@@ -394,7 +394,8 @@
                 >
                 <a
                   href="#"
-                  onclick="applyPromotionsCart() "
+                  onclick="this.onclick=applyPromotionsCart()"
+                  ondblclick= "disabled=true"
                   class="btn btn-primary m-3"
                   >Total descont</a
                 >
@@ -417,3 +418,4 @@
     <script src="checkout.js"></script>
   </body>
 </html>
+
